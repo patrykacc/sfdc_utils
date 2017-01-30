@@ -1,5 +1,6 @@
 /**
  * Created by p.organa on 1/30/2017.
+ *
  */
 
 public with sharing class Utils {
@@ -40,7 +41,7 @@ public with sharing class Utils {
      * @param sObjects - sObjects to be upsert
      * @param field - field that identifies Upsertresult with inserted object
      * @return map where key is a value from field specified as param: field
-     * and the value is Save result for sObject which is identified by key
+     * and the value is Upsert result for sObject which is identified by key
      */
     public static Map<String,Database.UpsertResult> improvedUpsert(List<SObject> sObjects, Schema.sObjectField field) {
         Map<String,Database.UpsertResult> saveResultByField = new Map<String,Database.UpsertResult>();
