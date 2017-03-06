@@ -9,7 +9,7 @@ public with sharing class Utils {
 
     /**
      * @description Method to insert objects to DataBase with improved audit
-     * @param sObjects - sObjects to be insert
+     * @param sObjects - sObjects to be inserted
      * @param field - field that identifies Saveresult with inserted object
      * @return map where key is a value from field specified as param: field
      * and the value is Save result for sObject which is identified by key
@@ -25,7 +25,7 @@ public with sharing class Utils {
 
     /**
      * @description Method to update objects in DataBase with improved audit
-     * @param sObjects - sObjects to be update
+     * @param sObjects - sObjects to be updated
      * @param field - field that identifies Saveresult with inserted object
      * @return map where key is a value from field specified as param: field
      * and the value is Save result for sObject which is identified by key
@@ -40,7 +40,7 @@ public with sharing class Utils {
     }
     /**
      * @description Method to upsert objects in DataBase with improved audit
-     * @param sObjects - sObjects to be upsert
+     * @param sObjects - sObjects to be upserted
      * @param field - field that identifies Upsertresult with inserted object
      * @return map where key is a value from field specified as param: field
      * and the value is Upsert result for sObject which is identified by key
